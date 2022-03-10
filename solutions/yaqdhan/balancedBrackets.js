@@ -1,7 +1,7 @@
 function balancedBrackets(anything) {
   const openings = ["{", "[", "("];
   const closings = ["}", "]", ")"];
-  let expected = [];
+  const expected = [];
 
   for (const letter of anything.split("")) {
     if (openings.includes(letter)) {
